@@ -22,6 +22,7 @@ def configure_database
   %x"rake db:migrate"
 end
 
+
 configure do
   puts "Run app..."
 
