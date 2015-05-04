@@ -10,3 +10,4 @@ get '/' do
   "Password is #{ENV['ADMIN_PASSWORD']}\n"+
   "DB password is #{ENV['DB_PASSWORD']}\n"
 end
+
